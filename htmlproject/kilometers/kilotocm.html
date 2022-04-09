@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kilotocm.css">
+    <script src="kilotocm.js"></script>
+    <title>Kilometers to Centimeters Converter</title>
+</head>
+<body>
+    <h1>Kilometers to Centimeters Converter</h1>
+<form name="kilometer" >
+<table class="meter">
+<td>Kilometers:</td>
+<td class="class1"><input type="number" id="kilometer" step="any" ></td>
+<td class="class1symbol">Km</td>
+</tr>
+<tr>
+<td><input onclick="convert()" type="button" value="Calculate" class="btn"> 
+<input onclick="clearAll()" type="reset" value="Reset" class="btn"></td>
+</tr>
+<tr>
+<td>Centimeters:</td>
+<td class="class1"><input type="text" id="meter" readonly></td>
+<td class="class1symbol">cm</td>
+</tr>
+</table>
+<h3> How to convert kilometers to centimeters</h3>
+1 kilometer is equal to 100000 centimeters: <br>1km = 100000cm <br>
+The distance d in centimeters (cm) is equal to the distance d in kilometers (km) times 100000: <br>
+d(cm) = d(km) × 100000
+</body>
+</html>

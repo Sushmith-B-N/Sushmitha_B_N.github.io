@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kilo.css">
+    <script src="kilo.js"></script>
+    <title>Kilometers to Meters Converter</title>
+</head>
+<body>
+    <h1>Kilometers to Meters Converter</h1>
+<form name="kilometer" >
+<table class="meter">
+<td>Kilometers:</td>
+<td class="class1"><input type="number" id="kilometer" step="any" ></td>
+<td class="class1symbol">Km</td>
+</tr>
+<tr>
+<td><input onclick="convert()" type="button" value="Calculate" class="btn"> 
+<input onclick="clearAll()" type="reset" value="Reset" class="btn"></td>
+</tr>
+<tr>
+<td>Meters:</td>
+<td class="class1"><input type="text" id="meter" readonly></td>
+<td class="class1symbol">m</td>
+</tr>
+</table>
+<h3> How to convert kilometers to meters</h3>
+1 kilometer is equal to 1000 meters: <br>1km = 1000m <br>
+The distance d in meters (m) is equal to the distance d in kilometers (km) times 1000: <br>
+(m) = d(km) × 1000 
+</body>
+</html>

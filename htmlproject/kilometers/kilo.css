@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: hsl(90, 4%, 10%);
+  font-size: 20px;
+  border-style: none;
+  margin-left: 500px;
+  margin-top: 182px;
+  min-height: 100%;
+  line-height: unset!important;
+  align-items: flex-end;
+  border-top: 5rem;
+}
+table {
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: #e11b1b;
+  size: 0rem ;
+  padding: 3rem ;
+  font-size:large ;
+  align-content: center;
+}
+.meter{
+  border-spacing:0;
+  background: #76767a;
+  border: 1px #f8f3f7 solid;
+  align-self: center;
+
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage Increase Calculator</title>
+    <link rel="stylesheet" href="percentage.css">
+    <script src="percentage.js"></script>
+  </head>
+<body>
+  <div class="para"><h2>Percentage Increase Calculator</h2>
+<legend class="para1">
+   <div class="container">
+  <div class="row">
+      <label for="Intialvalue"  class="label">Initial value:</label>
+      <input  id="Initialvalue"  value="" class="textfield" type="text">
+  </div>
+  <div class="row">
+      <label for="Finalvalue" class="label">Final value:</label>
+      <input  id="Finalvalue"  value="" class="textfield" type="text">
+  </div>
+  <input id="submit" name="submit" value="=Calculate" class="button" type="button" onclick="javascript:calculate()">
+  <input id="reset" class="button"   value="x Reset" type="reset" onclick="javascript:clearscreen()" >
+  <div class="row">
+      <label for="Percentageincrease" class="label" >Percentage Increase:</label>
+      <input  id="Percentageincrease" class="textfield"  value="" type="text"  >
+  </div>
+  <div class="row">
+    <label for="Difference" class="label" >Difference:</label>
+    <input  id="Difference" class="textfield"  value="" type="text" onclick="javascript:difference()"  >
+</div>
+  
+  
+</div>
+</legend>
+<h3> Percentage increase/decrease calculation</h3>
+The percentage increase/decrease from initial value (Vinitial) to final value (Vfinal) is equal to the initial and final values difference divided by the initial value times 100%: <br>
+
+percentage increase = (Vfinal - Vinitial) / Vinitial × 100% <br>
+
+
+</body>
+</html>

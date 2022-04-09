@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volts to MicroVolts</title>
+    <link rel="stylesheet" href="microvolts.css" />
+    <script src="microvolts.js"></script>
+  </head>
+  <body>
+    <div class="para">
+      <h1>Volts to Microvolts conversion</h1>
+      <p>Volts (V) Microvolts (µV) conversion - calculator.</p>
+    </div>
+    <legend>
+      <div class="container">
+        <div class="row">
+          <label for="volts" class="label">Enter Voltage in Volts:</label>
+          <input id="volts" value="" class="textfield" type="number" />
+        </div>
+        <input
+          id="convert"
+          value="Convert"
+          class="button"
+          type="button"
+          onclick="javascript:convert()"
+        />
+        <input
+          id="reset"
+          class="button"
+          value="Reset"
+          type="reset"
+          onclick="javascript:clearAll()"
+        />
+
+        <div class="row">
+          <label for="Microvolts" class="label">Return in Microvolts:</label>
+          <input id="Microvolts" value="" class="textfield" type="text" />
+        </div>
+      </div>
+    </legend>
+    <div class="para">
+      <h3>How to convert volts to microvolts</h3>
+      1 V = 106 µV = 1000000 µV<br />
+
+      or <br />
+
+      1 µV = 10-6 V = 1/1000000 V <br />
+    </div>
+  </body>
+</html>

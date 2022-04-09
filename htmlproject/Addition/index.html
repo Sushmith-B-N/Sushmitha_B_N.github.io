@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="para">
+      <h1>Addition, Sum Calculator</h1>
+      <p>Online adding calculator. Calculate the sum of 2 numbers.</p>
+      <p>
+        Enter 2 numbers to add and press the = button to get the sum result:
+      </p>
+    </div>
+    <legend>
+      <div class="container">
+        <div class="row">
+          <label for="First Number" class="label">First Number:</label>
+          <input id="firstnumber" value="" class="textfield" type="number" />
+        </div>
+        <div class="row">
+          <label for="+" class="label">+</label>
+        </div>
+        <div class="row">
+          <label for="Second Number" class="label">Second Number:</label>
+          <input id="secondnumber" value="" class="textfield" type="number" />
+        </div>
+        <input
+          id="submit"
+          name="submit"
+          value="Calculate"
+          class="button"
+          type="button"
+          onclick="javascript:calculate()"
+        />
+        <input
+          id="clear"
+          class="button"
+          value="X"
+          type="reset"
+          onclick="javascript:clearscreen()"
+        />
+        <div class="row">
+          <label for="Result" class="label">Result:</label>
+          <input id="result" class="textfield" value="" type="text" />
+        </div>
+      </div>
+    </legend>
+  </body>
+</html>
